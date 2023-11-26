@@ -16,7 +16,7 @@ for i in range(100):
     y += step
 
 
-saveImage('premierdessin.pdf')
+saveImage('dessin1.pdf')
 
 
 
