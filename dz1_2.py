@@ -16,4 +16,4 @@ for i in range(6):
         polygon((x, y-100), (175+x, 300+y), (300+x, 300+y), (250+x, 192+y), (200+x, 170+y), close=True)
         x = x + step
 
-saveImage('dessin2.pdf')
+saveImage('dessin1_2.pdf')
