@@ -6,14 +6,14 @@
 
 from drawbot_skia.drawbot import polygon, saveImage, fill
 
-y = 100
-step = 75
+y = 0
+step = 150
 
-for i in range(10):
-    x = 100
+for i in range(6):
+    x = 0
     y = y + step
-    for j in range(10):
-        polygon((x, y), (175+x, 300+y), (300+x, 300+y), (250+x, 192+y), (200+x, 170+y), close=True)
+    for j in range(6):
+        polygon((x, y-100), (175+x, 300+y), (300+x, 300+y), (250+x, 192+y), (200+x, 170+y), close=True)
         x = x + step
 
 saveImage('dessin2.pdf')
